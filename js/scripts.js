@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 
   $(".clickable2").click(function() {
-    $(".dolphin-showing").toggle();
-    $(".dolphin-hidden").toggle();
+    $(".dolphin-showing").slideDown();
+    $(".dolphin-hidden").slideUp();
   });
 });
