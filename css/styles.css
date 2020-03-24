@@ -1,7 +1,3 @@
-/* img {
-  display: none;
-} */
-
 #walrus-showing {
   display: none;
 }
@@ -12,5 +8,18 @@
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.dolphin-showing {
+  display: none;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: red;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }
